@@ -1,0 +1,29 @@
+{ "noindex": true,
+  "title": "RStudio",
+  "description": "R25 Environment",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Step 1: What's Happening?",
+        "courseData":"create.sh",
+        "text": "step1.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+      "showdashboard": true,
+      "uilayout": "terminal-iframe",
+      "dashboards": [
+        {"name": "RStudio Demo", "port": 8787}
+      ]
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
